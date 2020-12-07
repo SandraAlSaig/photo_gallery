@@ -3,9 +3,37 @@
 }
 
 body {
-
+  margin: auto;
+  width: 90%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #adaaac;
 }
 
-.test {
- background-color: grey;
+.grid-container {
+  display: grid;
+  grid-template-columns:4;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+div#search.grid-item {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 1em;
+  margin-top: .5em;
+  padding: 1em;
+
+  align-content: center;
+
 }
