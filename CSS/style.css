@@ -4,7 +4,10 @@
 }
 
 body{
-  background-color: #77b6bf;
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  font-family: "Varela Round", sans-serif;
 }
 
 .grid-container {
@@ -16,19 +19,20 @@ body{
 
 input {
   width: 40%;
-  padding: 20px;
+  padding: 10px;
+  font-size: 1.2em;
 }
 
 .search {
-  padding: 1em;
+  margin-top: 1.5em;
   width: 70%;
-  height: 20%;
-  font-size: 2em;
+  height: 90px;
+  padding: .5em;
+  text-align: center;
   background-color: #ffffff;
 }
 
 .grid-library {
-  margin: auto;
   padding-right: .5em;
   width: 70%;
   display: grid;
