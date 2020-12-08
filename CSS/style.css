@@ -10,11 +10,9 @@ body{
   font-family: "Varela Round", sans-serif;
 }
 
-.grid-container {
+.container {
   width: 70%;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  display: block;
   }
 
 input {
@@ -37,14 +35,14 @@ input {
   display: grid;
   margin: auto;
   max-width: 1000px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-template-rows: repeat(3, 1fr);
-  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(3, min-content);
+  grid-gap: 10px;
 
 }
 
 .grid-item {
   padding: .5em;
   background-color: #ffffff;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
