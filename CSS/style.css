@@ -1,6 +1,7 @@
 * {
-    box-sizing: border-box;
-    margin: auto;
+  box-sizing: border-box;
+  margin: auto;
+  height: 100%;
 }
 
 body{
@@ -8,10 +9,10 @@ body{
 }
 
 .grid-container {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   }
 
 .search {
