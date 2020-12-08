@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: auto;
-  height: 100%;
 }
 
 body{
@@ -22,7 +21,6 @@ input {
 .search {
   padding: 1em;
   width: 80%;
-  height: 120px;
   font-size: 1.5em;
   text-align: center;
   /* border: solid 1px black; */
@@ -30,19 +28,18 @@ input {
 }
 
 .grid-library {
+  margin: auto;
+  padding-left: 5em;
   width: 80%;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: minmax(300px, 340px) minmax(300px, 340px) minmax(300px, 340px) minmax(300px, 340px);
   grid-template-rows: auto auto auto;
-  grid-column-gap: .5em;
-  grid-row-gap: .5em;
-  /* border: solid 1px black; */
+  grid-row-gap: 1em;
   background-color: #ffffff;
 }
 
 .grid-item {
-  width: auto;
-  height: 250px;
+  margin: auto;
   padding: .5em;
   background-color: #ffffff;
   border: solid 1px black;
