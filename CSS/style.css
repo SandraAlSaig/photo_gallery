@@ -28,8 +28,8 @@ body{
 .grid-library {
   width: 80%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
   grid-column-gap: .5em;
   grid-row-gap: .5em;
   /* border: solid 1px black; */
@@ -38,6 +38,7 @@ body{
 
 .grid-item {
   width: auto;
+  height: 250px;
   padding: .5em;
   background-color: #ffffff;
   border: solid 1px black;
