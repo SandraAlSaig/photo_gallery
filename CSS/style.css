@@ -1,7 +1,9 @@
+
 * {
   box-sizing: border-box;
   margin: auto;
 }
+/* Styling the font of the page. */
 
 body{
   padding: 0;
@@ -10,16 +12,7 @@ body{
   font-family: "Varela Round", sans-serif;
 }
 
-.container {
-  width: 80%;
-  display: block;
-  }
-
-input {
-  width: 40%;
-  padding: 10px;
-  font-size: 1.2em;
-}
+/* Styled the search input. */
 
 .search {
 
@@ -28,7 +21,16 @@ input {
   padding: .5em;
   text-align: center;
   background-color: #ffffff;
+  }
+
+/* Sizing the search input. */
+
+input {
+  width: 40%;
+  padding: 10px;
+  font-size: 1.2em;
 }
+/* Adde a <div> with a grid system. */
 
 .gallery {
 
@@ -40,9 +42,9 @@ input {
   grid-gap: 10px;
 
 }
+/* Added child elements to the .gallery <div> for each thumpnail anchor. */
 
 .grid-item {
   padding: .5em;
   background-color: #ffffff;
-  /* border: solid 1px black; */
 }
